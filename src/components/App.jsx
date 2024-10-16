@@ -1,9 +1,14 @@
 import '../index.css'
+import Heading from './Heading'
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <h1>First Test</h1>
+      <Heading />
+      <div className="content">
+        <Outlet />
+      </div>
     </>
   )
 }

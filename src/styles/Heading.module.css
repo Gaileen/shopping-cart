@@ -1,0 +1,48 @@
+/* Heading styles */
+
+header {
+    background-color: rgb(62, 62, 62);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    min-height: 90px;
+    padding: 20px;
+}
+
+/* .logoContainer {
+    height: 100%;
+    width: 100%;
+}
+.logoContainer > h1 {
+    /* font-size: 50px; */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* *********figoure how to not affect other a tags */
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+header > h1 {
+    font-size: 50px;
+}
+
+.logo {
+    /* width: 100px;      
+    height: 100px;     
+    background-color: red; */
+}
