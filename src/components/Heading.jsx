@@ -4,7 +4,7 @@ import { ShopContext } from "./App";
 import styles from '../styles/Heading.module.css';
 
 function Links() {
-    const { cart } = useContext(ShopContext);
+    const { getCartLength } = useContext(ShopContext);
 
     return (
         <nav>
@@ -21,7 +21,7 @@ function Links() {
                 </li>
                 <li>
                     <Link to={`cart`}>
-                        <h2>Cart ({cart.length})</h2>
+                        <h2>Cart ({getCartLength()})</h2>
                     </Link>
                 </li>
             </ul>

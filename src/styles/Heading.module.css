@@ -27,8 +27,8 @@ ul {
     gap: 20px;
 }
 
-/* *********figoure how to not affect other a tags */
-a {
+/* **Note: CSS Modules only scope class names. */
+li > a {
     text-decoration: none;
     color: whitesmoke;
 }
